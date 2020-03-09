@@ -1,0 +1,126 @@
+/* Reset all margins and paddings to 0 */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* List page heading */
+.heading {
+    padding: 9px 0 31px 4px;
+    margin: 39px 87px 0 124px;
+
+    /* Editing font */
+    font-weight: 300;
+    font-size: 43px;
+    line-height: 50px;
+}
+
+/* Parent div */
+.parent {
+    display: flex;
+    min-width: 500px;
+    flex-wrap: wrap;
+    justify-content: center;  
+}
+
+.child {
+    width: 550px;
+    min-width: 33%;
+    align-items: center;
+    margin-right: 27px;
+    margin-top: -21px;
+}
+
+/* Coin block */
+.coin {
+    position: relative;
+    float: left;
+    width: 172px;
+    height: 172px;
+    background-size: cover;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 16px;
+    margin-top: 31px; 
+}
+
+.percent {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    border-radius: 100%;
+    background-color: #833AE0;
+    width: 44px;
+    height: 44px;
+}
+
+.pers {
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    top: 31px;
+    right: 24px;
+}
+
+.info {
+    font-size: 12px;
+    line-height: 13px;
+}
+
+.info h2 {
+    color: #833AE0;
+    font-weight: bold;
+    margin-bottom: 22px;
+}
+
+.price {
+    font-size: 12px;
+    width: 96px;
+}
+
+.discount-price {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Background images for coins */
+.lincoln {
+    background-image: url(images/averse-linkoln.png);
+}
+
+.kenedi {
+    background-image: url(images/averse-kennedi.png);
+}
+
+.jeferson {
+    background-image: url(images/averse-jeferson.png);
+}
+
+.ruzvelt {
+    background-image: url(images/averse-ruzvelt.png);
+}
+
+.bobr {
+    background-image: url(images/averse-bob.png);
+}
+
+.klenoviy-list {
+    background-image: url(images/averse-klen.png);
+}
+
+.gagara {
+    background-image: url(images/averse-gagara.png);
+}
+
+.los {
+    background-image: url(images/averse-los.png);
+}
