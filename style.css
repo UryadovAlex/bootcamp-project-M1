@@ -1,3 +1,5 @@
+/* Coin list page */
+
 /* Reset all margins and paddings to 0 */
 * {
     margin: 0;
@@ -5,14 +7,15 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.header {
+.main {
     margin: 0 auto;
-    max-width: 1100px;
+    max-width: 80%;
+    padding: 24px;
 }
 
 /* List page heading */
 .heading {
-    padding: 9px 0 0 0;
+    padding: 9px 0 0 22px;
     margin: 39px 0 31px 0;
 
     /* Editing font */
@@ -24,16 +27,14 @@
 /* Parent div */
 .parent {
     display: flex;
-    min-width: 500px;
-    flex-wrap: wrap;
-    justify-content: center;  
+    flex-wrap: wrap;  
+    justify-content: space-between;
 }
 
 .child {
-    width: 550px;
-    min-width: 33%;
+    width: 45%;
+    min-width: 400px;
     align-items: center;
-    margin-right: 27px;
     margin-top: -21px;
 }
 
@@ -78,7 +79,6 @@
 
 .info {
     font-size: 12px;
-    line-height: 13px;
 }
 
 .info h2 {
@@ -102,30 +102,142 @@
     background-image: url(images/averse-linkoln.png);
 }
 
+.lincoln-reverse {
+    background-image: url(images/reverse-linkoln.png);
+}
+
 .kenedi {
     background-image: url(images/averse-kennedi.png);
+}
+
+.kenedi-reverse {
+    background-image: url(images/reverse-kennedi.png);
 }
 
 .jeferson {
     background-image: url(images/averse-jeferson.png);
 }
 
+.jeferson-reverse {
+    background-image: url(images/reverse-jeferson.png);
+}
+
 .ruzvelt {
     background-image: url(images/averse-ruzvelt.png);
+}
+
+.ruzvelt-reverse {
+    background-image: url(images/reverse-ruzvelt.png);
 }
 
 .bobr {
     background-image: url(images/averse-bob.png);
 }
 
+.bobr-reverse {
+    background-image: url(images/reverse-bob.png);
+}
+
 .klenoviy-list {
     background-image: url(images/averse-klen.png);
 }
+
+.klenoviy-list-reverse {
+    background-image: url(images/reverse-klen.png);
+}
+
 
 .gagara {
     background-image: url(images/averse-gagara.png);
 }
 
+.gagara-reverse {
+    background-image: url(images/reverse-gagara.png);
+}
+
 .los {
     background-image: url(images/averse-los.png);
+}
+
+.los-reverse {
+    background-image: url(images/reverse-los.png);
+}
+
+/* Coin description page */
+.main-class {
+    margin: 0 auto;
+    max-width: 920px;
+    min-width: 700px;
+    padding: 24px;
+}
+
+.coin-pics {
+    width: 50%;
+}
+
+.averse {
+    width: 463px;
+    height: 463px;
+    background-size: cover;
+    margin: -54px 0 -54px -54px;
+}
+
+.reverse {
+    width: 463px;
+    height: 463px;
+    background-size: cover;
+    margin: -54px 0 -54px -54px;
+}
+
+.coin-description {
+    width: 50%;
+    background: rgba(196, 196, 196, 0.5);
+}
+
+table, p.inf {
+    padding: 30px 30px 0 47px;
+    font-size: 14px;
+    line-height: 125.5%;
+}
+
+.name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    padding: 44px 44px 0 47px;
+}
+
+.gray {
+    font-size: 10px;
+    color: #7A7A7A;
+}
+
+.rubl {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    padding: 44px 44px 0 47px;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
+
+td {
+    padding: 6px;
+    font-size: 12px;
+}
+
+table {
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link-back {
+    padding: 44px 44px 20px 47px;
 }
